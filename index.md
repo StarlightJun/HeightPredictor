@@ -6,7 +6,7 @@ job         : A student in Coursera
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
-widgets     : [bootstrap,mathjax, shiny] 
+widgets     : [bootstrap, mathjax, shiny] 
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 
@@ -30,7 +30,7 @@ knit        : slidify::knit2slides
 --- 
 ## Simple formula for calcalation
 
-<H3> $$\frac{FatherHeight + MotherHeight}{2} \pm 6.35$$ </H3>
+$$\frac{FatherHeight + MotherHeight}{2} \pm 6.35$$
 
 ## Reference information
 > [CDC Growth Charts of the United States](http://www.cdc.gov/GrowthCharts/) are good sources of information to evaluate the growth situation of a child.
