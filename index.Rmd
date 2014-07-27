@@ -7,7 +7,7 @@ framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [bootstrap, mathjax, shiny] 
-mode        : selfcontained # {standalone, draft}
+mode        : standalone # {selfcontained, draft}
 knit        : slidify::knit2slides
 
 --- 
@@ -41,6 +41,7 @@ $$\frac{FatherHeight + MotherHeight}{2} \pm 6.35$$
 ## Kid's Height Predictor!
 
 ```{r opts.label='shiny'}
+
 slidifyUI(          
        sidebarPanel(
                 HTML("<p><font size='2'>A child's height based on parental heights subjects to regression toward the mean. This calculator is base on this algorithm. Please enjoy it !</font></p>"),
