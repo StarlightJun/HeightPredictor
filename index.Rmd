@@ -9,9 +9,6 @@ hitheme     : tomorrow      #
 widgets     : [bootstrap,mathjax, shiny] 
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
-github:
-  user: starlightjun
-  repo: xxxx
 
 --- 
 ## Motivation 
@@ -33,7 +30,7 @@ github:
 --- 
 ## Simple formula for calcalation
 
-<H2> $$\frac{FatherHeight + MotherHeight}{2} \pm 6.35$$ </H2>
+<H3> $$\frac{FatherHeight + MotherHeight}{2} \pm 6.35$$ </H3>
 
 ## Reference information
 > [CDC Growth Charts of the United States](http://www.cdc.gov/GrowthCharts/) are good sources of information to evaluate the growth situation of a child.
